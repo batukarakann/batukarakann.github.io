@@ -40682,6 +40682,10 @@ a.u-link.u-text-hover-grey-90:hover {
         
         
         
+        
+        
+        
+        
         }
 
         /** common-rules **/
@@ -40814,6 +40818,13 @@ a.u-link.u-text-hover-grey-90:hover {
         margin-top: 20px;
         margin-bottom: 20px;
         line-height: 1.6;
+        }
+        .u-body
+        {
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
         }
         .u-input
         {
@@ -41142,16 +41153,17 @@ a.u-link.u-text-hover-grey-90:hover {
 /*end-variables sitestylecss*/
  .u-header {
   background-image: none;
+  box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.4);
 }
 
 .u-header .u-sheet-1 {
-  min-height: 112px;
+  min-height: 90px;
 }
 
 .u-header .u-image-1 {
   width: 70px;
   height: 70px;
-  margin: 20px auto 0 0;
+  margin: 10px auto 0 0;
 }
 
 .u-header .u-logo-image-1 {
@@ -41160,11 +41172,13 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -37px 0 22px auto;
+  margin: -43px 0 17px auto;
 }
 
 .u-header .u-nav-1 {
+  font-weight: 700;
   font-size: 1rem;
+  text-transform: uppercase;
 }
 
 .u-header .u-nav-2 {
@@ -41178,7 +41192,6 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-menu-1 {
     width: auto;
-    margin-top: -36px;
   }
 
   .u-header .u-nav-1 {
